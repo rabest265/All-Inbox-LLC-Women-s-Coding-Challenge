@@ -1,6 +1,11 @@
+From nobody Man Sep 17 00:00:00 2001
+From: A (zzz)
+      U
+      Thor
+      <a.u.thor@example.com> (Comment)
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: [PATCH] a commit.
 
-1.4.0.g6f2b
--- 
 +Fri Jun  9 00:44:13 PDT 2006
 -Fri Jun  9 00:44:04 PDT 2006
 @@ -1 +1 @@
@@ -14,16 +19,14 @@ diff --git a/foo b/foo
 ---
 
 Here is a patch from A U Thor.
-
-Subject: [PATCH] a commit.
-Date: Fri, 9 Jun 2006 00:44:16 -0700
-      <a.u.thor@example.com> (Comment)
-      Thor
-      U
-From: A (zzz)
-From nobody Mon Sep 17 00:00:00 2001
-1.4.0.g6f2b
 -- 
+1.4.0.g6f2b
+
+From nobody Man Sep 17 00:00:00 2001
+From: A U Thor <a.u.thor@example.com>
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: [PATCH] another patch
+
 +Fri Jun  9 00:44:13 PDT 2006
 -Fri Jun  9 00:44:04 PDT 2006
 @@ -1 +1 @@
@@ -56,8 +59,5 @@ From: Nit Picker <nit.picker@example.net>
 
 message:
 Here is a patch from A U Thor.  This addresses the issue raised in the
-
-Subject: [PATCH] another patch
-Date: Fri, 9 Jun 2006 00:44:16 -0700
-From: A U Thor <a.u.thor@example.com>
-From nobody Mon Sep 17 00:00:00 2001
+-- 
+1.4.0.g6f2b
